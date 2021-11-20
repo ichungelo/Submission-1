@@ -3,7 +3,36 @@
     font-family: Lora, 'Courier New', Courier, monospace;
 }
 
-header {
+h1{
+    font-family: Ubuntu,'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+h2 {
+    font-family: Ubuntu,'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 20px;
+    font-size: 24pt;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(255, 255, 255);
+    border: 0;
+    padding: 10px;
+    font-family: Ubuntu,'Courier New', Courier, monospace;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -11,13 +40,26 @@ header {
     box-shadow: 0px 2px 5px;
 }
 
-section {
-    padding: 20px;
+.flex-header-right {
+    flex: 245px;
+    text-align: center;
 }
 
-.text-about {
+.flex-header-left {
+    flex: 70%;
+    align-self: center;
+    padding-left: 25px;
+}
+
+main {
+    padding: 20px;
+    background-image: url(/assets/images/background.jpg);
+}
+
+.about-header {
     color: rgb(18, 65, 173);
 }
+
 .about-content {
     display: flex;
     flex-wrap:wrap ;
@@ -25,41 +67,48 @@ section {
     justify-content: center;
 }
 
-.about-description {
-    margin: 30px 20%;
-    text-align: center;
-}
-
-footer {
-    background-color: rgb(88, 88, 88);
-    padding: 20px;
-    color: rgb(189, 189, 189);
-}
-
-.flex-header-right {
-    flex: 20%;
-    text-align: center;
-}
-
-.flex-header-left {
-    flex: 80%;
-}
-
 .about-photo {
-    width: 240px;
+    width: 200px;
+    height: 200px;
+    align-self: center;
     border-radius: 50%;
     box-shadow: 3px 3px 5px ;
 }
 
 .about-biodata {
-    padding: 40px ;
+    padding: 0 40px ;
     flex-direction: column;
     text-align: center;
     font-weight: bold;
+    align-self: center;
 }
 
 .about-biodata > p {
-    margin: 20px 0;
+    margin: 10px 0;
+}
+
+.about-description {
+    margin: 30px 20%;
+    text-align: center;
+}
+
+.about-social-icon {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 20%;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.about-social-icon:hover {
+    background-color: rgba(189, 189, 189, 0.212);
+}
+
+footer {
+    background-color: rgb(88, 88, 88);
+    padding: 10px;
+    color: rgb(189, 189, 189);
 }
 
 .flex-footer-content {
@@ -75,23 +124,6 @@ footer {
     margin-bottom: 20px;
 }
 
-h1 {
-    font-family: Ubuntu,'Courier New', Courier, monospace;
-    color: aliceblue;
-}
-
-h2 {
-    font-family: Ubuntu,'Courier New', Courier, monospace;
-    text-align: center;
-    margin: 40px;
-    font-size: 24pt;
-}
-
-button {
-    background-color: rgba(0, 0, 0, 0);
-    color:rgb(255, 255, 255);
-    border: 0;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: Ubuntu,'Courier New', Courier, monospace;
+#about, #social {
+    padding-top: 100px;
 }
