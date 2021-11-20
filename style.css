@@ -81,6 +81,7 @@ h1 {
 }
 
 h2 {
+    font-family: Ubuntu,'Courier New', Courier, monospace;
     text-align: center;
     margin: 40px;
     font-size: 24pt;
