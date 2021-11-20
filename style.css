@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: Lora, 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(18, 65, 173);
+    box-shadow: 0px 2px 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+.text-about {
+    color: rgb(18, 65, 173);
+}
+.about-content {
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-description {
+    margin: 30px 20%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+    color: rgb(189, 189, 189);
+}
+
+.flex-header-right {
+    flex: 20%;
+    text-align: center;
+}
+
+.flex-header-left {
+    flex: 80%;
+}
+
+.about-photo {
+    width: 240px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px ;
+}
+
+.about-biodata {
+    padding: 40px ;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-biodata > p {
+    margin: 20px 0;
+}
+
+.flex-footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.flex-footer-content > p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Ubuntu,'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 24pt;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(255, 255, 255);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Ubuntu,'Courier New', Courier, monospace;
+}
