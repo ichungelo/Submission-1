@@ -1,15 +1,25 @@
 * {
     margin: 0;
-    font-family: Lora, 'Courier New', Courier, monospace;
+    font-family: Plus, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(/assets/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Plus;
+    src: url(/assets/fonts/MPLUS1-Regular.ttf);
 }
 
 h1{
-    font-family: Ubuntu,'Courier New', Courier, monospace;
+    font-family: Ubuntu, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 
 h2 {
-    font-family: Ubuntu,'Courier New', Courier, monospace;
+    font-family: Ubuntu, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin: 20px;
     font-size: 24pt;
@@ -21,7 +31,7 @@ button {
     border: 0;
     font-weight: bolder;
     padding: 10px;
-    font-family: Ubuntu,'Courier New', Courier, monospace;
+    font-family: Ubuntu,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 button:hover {
