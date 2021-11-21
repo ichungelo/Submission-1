@@ -19,6 +19,7 @@ button {
     background-color: rgba(0, 0, 0, 0);
     color:rgb(255, 255, 255);
     border: 0;
+    font-weight: bolder;
     padding: 10px;
     font-family: Ubuntu,'Courier New', Courier, monospace;
 }
