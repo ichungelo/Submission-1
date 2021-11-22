@@ -66,6 +66,7 @@ nav {
 main {
     padding: 20px;
     background-image: url(/assets/images/background.jpg);
+    background-size: cover;
 }
 
 .about-header {
