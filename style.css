@@ -138,6 +138,18 @@ footer {
     margin-bottom: 20px;
 }
 
+.footer-end {
+    font-size: 8pt;
+    color: white;
+    margin: 0;
+    background-color: rgb(18, 65, 173);
+    text-align: center;
+}
+
+.footer-end > p >img {
+    width: 14px;
+}
+
 #about, #social {
     padding-top: 100px;
 }
